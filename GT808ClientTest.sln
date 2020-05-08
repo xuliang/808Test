@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT808ClientTest", "GT808ClientTest.csproj", "{DAEB7DF5-2FA8-4663-A15C-F8E52C1A19A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAEB7DF5-2FA8-4663-A15C-F8E52C1A19A9}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{DAEB7DF5-2FA8-4663-A15C-F8E52C1A19A9}.Debug|x64.ActiveCfg = Debug|x64
+		{DAEB7DF5-2FA8-4663-A15C-F8E52C1A19A9}.Debug|x64.Build.0 = Debug|x64
+		{DAEB7DF5-2FA8-4663-A15C-F8E52C1A19A9}.Debug|x86.ActiveCfg = Debug|x86
+		{DAEB7DF5-2FA8-4663-A15C-F8E52C1A19A9}.Debug|x86.Build.0 = Debug|x86
+		{DAEB7DF5-2FA8-4663-A15C-F8E52C1A19A9}.Release|Any CPU.ActiveCfg = Release|x86
+		{DAEB7DF5-2FA8-4663-A15C-F8E52C1A19A9}.Release|x64.ActiveCfg = Release|x64
+		{DAEB7DF5-2FA8-4663-A15C-F8E52C1A19A9}.Release|x64.Build.0 = Release|x64
+		{DAEB7DF5-2FA8-4663-A15C-F8E52C1A19A9}.Release|x86.ActiveCfg = Release|x86
+		{DAEB7DF5-2FA8-4663-A15C-F8E52C1A19A9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAA1F5E7-D1F4-4D5E-A8BD-C3C293C9BA3B}
+	EndGlobalSection
+EndGlobal
