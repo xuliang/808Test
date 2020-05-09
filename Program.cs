@@ -298,8 +298,10 @@ namespace GT808ClientTest
             byte checkByte = PackHelper.CalcCheckByte(fullBytes, 0, fullBytes.Length);
 
             bytesSend = (new byte[] { 0x7e }
-            .Concat(PackHelper.EncodeBytes(fullBytes).Concat(new byte[] { checkByte }))
+            .Concat(PackHelper.EncodeBytes(fullBytes.Concat(new byte[] { checkByte })))
             .Concat(new byte[] { 0x7e })).ToArray();
+
+            //Console.WriteLine("{0} {1}",head.SeqNO, bytesSend.ToHexString());
 
             //发送消息
             SendBytes(tcp, bytesSend);

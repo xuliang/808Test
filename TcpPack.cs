@@ -167,7 +167,8 @@ namespace Gps.Plugin.Tcp.GT808
 
         public string GetDeviceId()
         {
-            return string.Concat("460", DeviceId);
+            //return string.Concat("460", DeviceId);
+            return DeviceId;
         }
 
         public void SetDeviceId(string value)
